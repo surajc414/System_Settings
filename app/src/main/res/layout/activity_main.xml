@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@color/background"
+
+    tools:context="com.trihutt.system_setting.MainActivity">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/open_setting"
+            android:paddingBottom="5dp"
+            style="@style/Mybutton"
+            android:text="Open Setting"/>
+
+
+        <Button
+            android:id="@+id/open_wifi"
+            android:paddingBottom="5dp"
+            style="@style/Mybutton"
+            android:text="Setting For WIFI"/>
+
+        <Button
+            android:id="@+id/accessibility_setting"
+            android:paddingBottom="5dp"
+            style="@style/Mybutton"
+            android:text="Accessibility Setting"/>
+
+
+        <Button
+            android:id="@+id/add_Account"
+            android:paddingBottom="5dp"
+            style="@style/Mybutton"
+            android:text="Add Account"/>
+
+        <Button
+            android:id="@+id/airplane_mode"
+            android:paddingBottom="5dp"
+            style="@style/Mybutton"
+            android:text="Airplane Mode Setting"/>
+
+        <Button
+            android:id="@+id/apn_setting"
+            android:paddingBottom="5dp"
+            style="@style/Mybutton"
+            android:text="APN settings"/>
+        <Button
+            android:id="@+id/app_details"
+            android:paddingBottom="5dp"
+            style="@style/Mybutton"
+            android:text="APP DETAILS SETTING"/>
+
+        <Button
+            android:id="@+id/data_uses"
+            android:paddingBottom="5dp"
+            style="@style/Mybutton"
+            android:text="DATA USES SETTING"/>
+
+        <Button
+            android:id="@+id/security_setting"
+            android:paddingBottom="5dp"
+            style="@style/Mybutton"
+            android:text="SECURITY SETTING"/>
+
+        <Button
+            style="@style/Mybutton"
+            android:id="@+id/bluetooth_setting"
+            android:paddingBottom="5dp"
+            android:text="BLUETOOTH SETTING"/>
+        <Button
+            android:id="@+id/network_operator"
+            style="@style/Mybutton"
+            android:paddingBottom="5dp"
+            android:text="NETWORTK OPERATOR SETTING"/>
+        <Button
+            android:id="@+id/finger_enrol"
+            android:paddingBottom="5dp"
+            style="@style/Mybutton"
+            android:text="FINGET ENROLL SETTING"/>
+        <Button
+            android:id="@+id/date_settings"
+            android:paddingBottom="5dp"
+            style="@style/Mybutton"
+            android:text="DATE SETTING"/>
+        <Button
+            android:id="@+id/disp_settings"
+            android:paddingBottom="5dp"
+            style="@style/Mybutton"
+            android:text="DISPLAY SETTING"/>
+
+        <Button
+            android:id="@+id/batery_settings"
+            android:paddingBottom="5dp"
+            style="@style/Mybutton"
+            android:text="BATTERY SAVER SETTING"/>
+
+        <Button
+            android:id="@+id/captioning_setting"
+            style="@style/Mybutton"
+            android:paddingBottom="5dp"
+            android:text="CAption Setting"/>
+
+
+        <Button
+            android:id="@+id/cast_setting"
+            android:paddingBottom="5dp"
+            style="@style/Mybutton"
+            android:text="Cast Setting"/>
+
+
+        <Button
+            android:id="@+id/notification_setting"
+            android:paddingBottom="5dp"
+            style="@style/Mybutton"
+            android:text="Internal Storage Setting"/>
+
+        <Button
+            android:id="@+id/app_setting"
+            android:paddingBottom="5dp"
+            style="@style/Mybutton"
+            android:text="Application Settings"/>
+
+
+        <Button
+            android:id="@+id/external_storage_setting"
+            android:paddingBottom="5dp"
+            style="@style/Mybutton"
+            android:text="Device Information"/>
+
+
+        <Button
+            android:id="@+id/about_developer"
+            android:paddingBottom="5dp"
+            style="@style/Mybutton"
+            android:text="About Developer"/>
+
+    </LinearLayout>
+</ScrollView>
